@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.0"
+  },
+  "license": "UNLICENSED",
+  "name": "frontend",
+  "scripts": {
+    "start": "rm -rf ../backend/public; parcel watch ./src/index.html --dist-dir ../backend/public --public-url ./"
+  },
+  "version": "1.0.0"
+}

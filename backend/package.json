@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "electron": "^19.0.4"
+  },
+  "license": "UNLICENSED",
+  "main": "main.js",
+  "name": "backend",
+  "scripts": {
+    "start": "electron ."
+  },
+  "version": "1.0.0"
+}

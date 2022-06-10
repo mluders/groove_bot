@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "back": "yarn workspace backend run start",
+    "front": "yarn workspace frontend run start"
+  },
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
